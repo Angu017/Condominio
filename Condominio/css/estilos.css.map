@@ -1,0 +1,13 @@
+<<<<<<< Updated upstream
+{"version":3,"sourceRoot":"","sources":["../estilos.scss"],"names":[],"mappings":"AACA;EACI,aAFQ;;;AAMZ;EACI;IACI;IACA;;;AAIR;EACI;IACI;IACA;;;AAIR;EACI;IACI;IACA","file":"estilos.css"}
+=======
+{
+    "version": 3,
+    "mappings": "AAaA,AAAA,IAAI,CAAA;EACA,WAAW,EAdH,SAAS,EAAE,WAAW;CAejC;;AAED,MAAM,EAAC,SAAS,EAAE,KAAK,QAAQ,6BAA6B,EAAE,CAAC,OAAO,cAAc,EAAE,MAAM;EACxF,AAAA,IAAI,CAAA;IACA,MAAM,EAAE,IAAI;IACZ,gBAAgB,EAAE,SAAS;GAC9B;;;AAGL,MAAM,EAAC,SAAS,EAAE,KAAK,QAAQ,6BAA6B,EAAE,CAAC,OAAO,cAAc,EAAE,MAAM;EACxF,AAAA,IAAI,CAAA;IACA,MAAM,EAAE,IAAI;IACZ,KAAK,EAAE,KAAK;GACf;;;AAGL,MAAM,EAAC,SAAS,EAAE,KAAK,QAAQ,6BAA6B,EAAE,CAAC,OAAO,cAAc,EAAE,MAAM;EACxF,AAAA,IAAI,CAAA;IACA,MAAM,EAAE,IAAI;IACZ,KAAK,EAAE,IAAI;GACd",
+    "sources": [
+        "estilos.scss"
+    ],
+    "names": [],
+    "file": "estilos.css"
+}
+>>>>>>> Stashed changes
