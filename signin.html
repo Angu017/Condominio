@@ -7,17 +7,17 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="./js/onclick.js"></script>
-  <title>Inicio Sesión</title>
-  <link rel="icon" type="images/logo1.png" href="images/logo1.png">
+  <title>SignIn</title>
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body>
   <!--Navigation-->
   <nav class="navbar navbar-expand-sm ">
     <ul class="navbar-nav mr-auto">
       <div>
         <a href="index.html">
-          <img class="card-img-top img-fluid resize" src="images/logo12.png">
+          <img class="card-img-top img-fluid resize" src="images/logo1.jpg" style="width:80px;height:60px"
+            alt="Card image cap">
         </a>
       </div>
     </ul>
@@ -28,26 +28,32 @@
       <a href="index.html">
         
         <a class="navbar-brand" href="catalogo.html"></a>
-        <h1 class="h3 mb-3 font-weight-normal" style="text-align: center">Iniciar sesión</h1>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Correo" required="" autofocus="">
-        <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required="">
+        <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Sign in</h1>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
 
         <a href="homedoctor.html">
-          <button class="btn btn-success btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i>Ingreso Doctor</button>
+          <button class="btn btn-success btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i> Sign
+            in as a doctor</button>
         </a>
 
         <a href="homepaciente.html">
-            <button class="btn btn-success btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i>Ingreso Paciente</button>
+            <button class="btn btn-success btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i> Sign
+              in as a pacient</button>
           </a>
 
 
-        <a href="#" id="forgot_pswd">¿Olvidaste la contraseña?</a>
+        <a href="#" id="forgot_pswd">Forgot password?</a>
         <hr>
 
         <!-- <p>Don't have an account!</p>  -->
+        <a href="registrodoctor.html">
+          <button class="btn btn-primary btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i>
+            Registrarse como Doctor</button>
+        </a>
         <a href="registropaciente.html">
           <button class="btn btn-secondary btn-block" type="button" id="btn-signup" href="registropaciente"><i
-              class="fas fa-user-plus"></i> Registrarse</button>
+              class="fas fa-user-plus"></i> Registrarse como Paciente </button>
         </a>
 
 
@@ -57,30 +63,30 @@
   <!--Footer-->
   <footer class="footer bg-light">
     <div class="container">
-        <div class="row">
+      <div class="row">
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-            <ul class="list-inline mb-2">
+          <ul class="list-inline mb-2">
             <li class="list-inline-item">
-                <a href="#">Sobre nosotros</a>
+              <a href="#">About</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-                <a href="#">Contacto</a>
+              <a href="#">Contact</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-                <a href="#">Termino de uso</a>
+              <a href="#">Terms of Use</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-                <a href="#">Politica de privacidad</a>
+              <a href="#">Privacy Policy</a>
             </li>
-            </ul>
-            <p class="text-muted small mb-4 mb-lg-0">&copy; Dos Álamos 2023. Todos los derechos reservados.</p>
+          </ul>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Doctor Online 2019. All Rights Reserved.</p>
         </div>
-        </div>
+      </div>
     </div>
-</footer>
+  </footer>
 </body>
 
 </html>

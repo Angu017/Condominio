@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <title>Panel Doctor</title>
-  <link rel="icon" type="images/logo1.png" href="images/logo1.png">
   <style>
     .scrolling-wrapper {
       overflow-x: scroll;
@@ -27,6 +26,7 @@
       margin-right: auto;
       width: 50%;
     }
+
   </style>
 </head>
 
@@ -35,7 +35,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a href="homepaciente.html">
-      <img class="card-img-top img-fluid resize" src="images/logo12.png" alt="Card image cap">
+      <img class="card-img-top img-fluid resize" src="images/logo2.png" style="width: 6rem;" alt="Card image cap">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
       aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +58,7 @@
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="agendarcita.html">Agendar cita</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="valoracionpac.html">Ficha medica</a>
+            <a class="dropdown-item" href="valoracionpac.html">Estudio</a>
             <a class="dropdown-item" href="index.html">Logout</a>
           </div>
         </li>
@@ -72,63 +72,102 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
+  <div class="col-12">
+    <label for="exampleFormControlSelect1">Especialidades</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Pediatria</option>
+      <option>ginecología</option>
+      <option>Cardiología</option>
+      <option>Neurología</option>
+      <option>Dermatología</option>
+      <option>Medicina Interna</option>
+    </select>
+  </div>
+
   <div class="container mt-5 pt-5">
 
 
     <div class="card-deck">
       <div class="card">
         <img class="card-img-top img-fluid" src="images/user.jpg" alt="Card image cap">
-        <div class="card-body" style="width: 100%;">
-          <h5 class="card-title">Juan Gonzales</h5>
-          <p class="card-text">Especialista en kinesiologia .</p>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
           <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Agendar cita</button>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
         </div>
       </div>
 
       <div class="card">
         <img class="card-img-top img-fluid" src="images/user.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Matias Laton</h5>
-          <p class="card-text">Especialista en Ginecologia.</p>
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
           <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Agendar cita</button>
+
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
         </div>
       </div>
 
       <div class="card">
         <img class="card-img-top" src="images/user.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Angela Garcia</h5>
-          <p class="card-text">Especialista en Pediatria</p>
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
           <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Agendar cita</button>
+
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
         </div>
       </div>
+
     </div>
 
     <div class="card-deck mt-5">
       <div class="card">
         <img class="card-img-top img-fluid" src="images/user.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Rosa Gimenez</h5>
-          <p class="card-text">Especialista en psicologia</p>
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
           <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Agendar cita</button>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
         </div>
       </div>
 
       <div class="card">
         <img class="card-img-top img-fluid" src="images/user.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Luis Alonzo</h5>
-          <p class="card-text">Especialista Dental</p>
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
           <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Agendar cita</button>
+
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
         </div>
       </div>
 
       <div class="card">
         <img class="card-img-top" src="images/user.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Juan Gana</h5>
-          <p class="card-text">Medico General</p>
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
           <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Agendar cita</button>
+
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
         </div>
       </div>
 
@@ -194,30 +233,30 @@
   <!--Footer-->
   <footer class="footer bg-light">
     <div class="container">
-        <div class="row">
+      <div class="row">
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-            <ul class="list-inline mb-2">
+          <ul class="list-inline mb-2">
             <li class="list-inline-item">
-                <a href="#">Sobre nosotros</a>
+              <a href="#">About</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-                <a href="#">Contacto</a>
+              <a href="#">Contact</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-                <a href="#">Terminos de uso</a>
+              <a href="#">Terms of Use</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-                <a href="#">Politica de privacidad</a>
+              <a href="#">Privacy Policy</a>
             </li>
-            </ul>
-            <p class="text-muted small mb-4 mb-lg-0">&copy; Dos Álamos 2023. Todos los derechos reservados.</p>
+          </ul>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Nombre del sitio 2019. All Rights Reserved.</p>
         </div>
-        </div>
+      </div>
     </div>
-</footer>
+  </footer>
 
 
 
