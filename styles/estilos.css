@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 header.img {
   position: relative;
   background-color: #343a40;
-  background: url("../images/stethoscope.jpg") no-repeat center center;
+  background: url("../images/condominio1.jpg");
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -60,3 +60,4 @@ footer.footer {
 }
 
 /*# sourceMappingURL=estilos.css.map */
+
