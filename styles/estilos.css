@@ -7,16 +7,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-header.img {
+main.img {
   position: relative;
   background-color: #343a40;
   background: url("../images/condominio1.jpg");
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
-}
-
-header.img .overlay {
   position: absolute;
   background-color: #212529;
   height: 100%;
@@ -25,6 +22,7 @@ header.img .overlay {
   left: 0;
   opacity: 0.3;
 }
+
 
 header.img h1 {
   font-size: 2rem;
@@ -58,6 +56,8 @@ footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
+
 
 /*# sourceMappingURL=estilos.css.map */
 
