@@ -17,9 +17,7 @@ class Migration(migrations.Migration):
                 ('id_deuda', models.IntegerField(primary_key=True, serialize=False, verbose_name='Id deuda')),
                 ('nombre', models.CharField(max_length=40, verbose_name='Nombre deuda')),
                 ('Cantidad', models.IntegerField(verbose_name='Cantidad deuda')),
-                ('foto', models.ImageField(upload_to='Catalogo')),
                 ('descripcion', models.TextField(verbose_name='Descripcion deuda')),
-                ('url', models.URLField(verbose_name='Url video')),
             ],
         ),
         migrations.CreateModel(
