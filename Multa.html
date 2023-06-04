@@ -16,6 +16,7 @@
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/index2.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/Tabla.css">
+    <link rel="stylesheet" href="styles/multa.css">
 </head>
 
 <body>
@@ -52,7 +53,7 @@
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Bienvenido Juan Pablo</h5>
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Multa</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
@@ -62,7 +63,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="Información.html">Información</a>
-                                <a class="nav-link" href="Información.html">Multa</a>
+                                <a class="nav-link" href="Multa.html">Multa</a>
                                 <a class="nav-link" href="index.html">Salir</a>
                                 </a>
                             </li>
@@ -77,108 +78,25 @@
     </header>
 
     <main>
-    
-        <div class="row w-100">
-            <div class="pl-5 pt-4 col-sm-12 col-md-12 col-lg-1">
-            </div>
-            <div class="pl-5 pt-4 col-sm-12 col-md-12 col-lg-5">
-                <h2>Información residentes</h2>
-                <table class="content-table">
-                    <thead>
-                        <tr>
-                            <th>N°Casa</th>
-                            <th>Nombre</th>
-                            <th>Rut</th>
-                            <th>Calle</th>
-                            <th>N° de Telefono</th>
-                            <th>Estado</th>
-                            <th>Multa</th>
-                            <th>Gastos comunes</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Alexis Chavez</td>
-                            <td>19517068-1</td>
-                            <td>San jose</td>
-                            <td>+56932102353</td>
-                            <td>Moroso</td>
-                            <td>Ninguna</td>
-                            <td>Pagado</td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Alexis Chavez</td>
-                            <td>19517068-1</td>
-                            <td>San jose</td>
-                            <td>+56932102353</td>
-                            <td>Moroso</td>
-                            <td>Ninguna</td>
-                            <td>Pagado</td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Alexis Chavez</td>
-                            <td>19517068-1</td>
-                            <td>San jose</td>
-                            <td>+56932102353</td>
-                            <td>Moroso</td>
-                            <td>Ninguna</td>
-                            <td>Pagado</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="pl-5 pt-4 col-sm-12 col-md-12 col-lg-1">
-
-            </div>
-            <div class="pl-5 pt-4 col-sm-12 col-md-12 col-lg-3">
-                <h2>Información Areas comunes</h2>
-                <table class="content-table">
-                    <thead>
-                        <tr>
-                            <th>Nombre</th>
-                            <th>Estado</th>
-                            <th>Arrendado</th>
-                            <th>N° de Telefono</th>
-
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Piscina</td>
-                            <td>Disponible</td>
-                            <td>Alexis Chavez</td>
-                            <td>+56932102353</td>
-                        </tr>
-                        <tr>
-                            <td>Cancha</td>
-                            <td>Disponible</td>
-                            <td>Alexis Chavez</td>
-                            <td>+56932102353</td>
-                        </tr>
-                        <tr>
-                            <td>Parrilla</td>
-                            <td>Disponible</td>
-                            <td>Alexis Chavez</td>
-                            <td>+56932102353</td>
-                        </tr>
-                        <tr>
-                            <td>Parque</td>
-                            <td>Disponible</td>
-                            <td>Alexis Chavez</td>
-                            <td>+56932102353</td>
-                        </tr>
-                        <tr>
-                            <td>Cancha de Tenis</td>
-                            <td>Disponible</td>
-                            <td>Alexis Chavez</td>
-                            <td>+56932102353</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+        <section class="form-register">
+            <h4>Multa</h4>
+            <h>Nombre del involucrado</h>
+            <select class="form-control">
+                <option>Default select</option>
+            </select>
+            <h>Dia del incidente</h>
+            <input class="controls" type="date" name="Dia" id="Dia" placeholder="Dia">
+            <h>Cantidad de multa</h>
+            <input class="controls" type="number" name="correo" id="correo" placeholder="Ingrese su Correo">
+            <h>Razon de multa</h>
+            <select class="form-control">
+                <option>Mal estacionado</option>
+                <option>Choque</option>
+                <option>Pelea</option>
+                <option>Daño a propiedad</option>
+            </select>
+            <input class="botons" type="submit" value="Generar">
+        </section>
     </main>
     <!-- FOOTER -->
     <footer class="container">
