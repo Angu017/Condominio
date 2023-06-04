@@ -57,6 +57,11 @@ footer.footer {
   padding-bottom: 4rem;
 }
 
+/* Modify the background color */
+.navbar-custom {
+	background-color: #C4DFDF
+}
+
 
 
 /*# sourceMappingURL=estilos.css.map */

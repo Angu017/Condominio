@@ -71,3 +71,8 @@
   margin-bottom: 30px;
 }
 /*# sourceMappingURL=sign.css.map */
+
+/* Modify the background color */
+.navbar-custom {
+	background-color: #C4DFDF
+}
